@@ -60,8 +60,9 @@ body {
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
-
+.ativo{
+    background-color: #ffd000;
+}
 
 .glow-on-hover:active {
     color: #000000
