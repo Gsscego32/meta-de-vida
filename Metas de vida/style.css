@@ -29,8 +29,19 @@ body {
     text-align: center;
     background: #000;
 }
-.abra-Conteudo {
-    display: none;
+.abra-Conteudo.ativo{
+    display: block;
+
+}
+.abra-texto{
+    display: inline;
+}
+.abra-Conteudo{
+    display:none;
+}
+.abra-Conteudo-titulo-pricipal{
+    font-size: 34px;
+
 }
 .glow-on-hover {
     width: 220px;
@@ -62,7 +73,7 @@ body {
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-.ativo{
+.glow-on-hover.ativo{
     background-color: #ffd000;
 }
 
