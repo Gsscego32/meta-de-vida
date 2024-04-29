@@ -1,5 +1,8 @@
-const botoes = document.querySelectorAll(".botoes");
-const texto= document.querySelectorAll(".abra-texto");
+const botoes= document.querySelectorAll(".glow-on-hover");
+const texto= document.querySelectorAll(".abra-Conteudo");
+const contadores= document.querySelectorAll(".contador");
+const TempoObjetivo1= new Date("2024-12-13T00:00:00");
+const tempoAtual= new Date;
 //Declara quais elementos vao ser lidos. O script vai ler todos que tiverem a classe "botao".
 
 for(let i=0;i <botoes.length;i++){
@@ -16,3 +19,5 @@ for(let i=0;i <botoes.length;i++){
 
     }
 }
+
+contadores[0].textContent= TempoObjetivo1 - tempoAtual;
