@@ -8,7 +8,13 @@
  --botao-inativo:rgb(250, 8, 8);
  --texto-fundo:rgba(252, 164, 0, 0.3);
 }   
-
+.contador{
+font-size: 23px;
+text-align: center;
+padding: 10px;
+background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+color: #000000;
+}
 body{
  
  background-color:var(--cor-de-fundo);

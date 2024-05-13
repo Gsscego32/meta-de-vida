@@ -41,7 +41,7 @@ function CalculaTempo(TempoObjetivo){
     horas%=24;
     dias%=30;
     mes%=12;
-    return anos+"anos"+mes+"mes"+dias+"dias"+horas+"horas"+minutos+"minutos"+segundos+"segundos";
+    return anos + " anos " + mes + " mes " + dias + " dias " + horas + " horas " + minutos + " minutos "  + segundos + " segundos " ;
 
 
 }
